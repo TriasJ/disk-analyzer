@@ -1,0 +1,8 @@
+# generated outputs (contain local paths / personal file names)
+disk_report_*.html
+review-then-run_*.ps1
+clear-safe-caches_*.ps1
+
+# python
+__pycache__/
+*.pyc
