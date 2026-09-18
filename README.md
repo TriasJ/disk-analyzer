@@ -2,6 +2,8 @@
 
 > **Beta** — a small, dependency-free, Windows-only disk-space analyzer. Actively developed.
 
+![Disk Analyzer — GUI treemap of where your space goes](docs/screenshot-treemap.png)
+
 A small, dependency-free tool that shows **where your disk space goes**, finds
 **duplicate files**, and flags **"crumbs"** (small, long-forgotten files) — plus
 well-known **regenerable caches** you can safely clear.
@@ -13,6 +15,12 @@ plus a **review-then-run.ps1** script listing suggested deletions.
 > **The tool never deletes anything itself.** Every suggested deletion is written
 > to `review-then-run.ps1` **commented out**, and set to move files to the
 > **Recycle Bin** (recoverable). You decide what to uncomment and run.
+
+## Screenshots
+
+The native GUI — Overview (summary + one-click cleanup) and a drill-down Treemap (double-click a folder to zoom in). Shown on a demo folder.
+
+![Overview tab](docs/screenshot-overview.png)
 
 ## Requirements
 - Windows with **Python 3.8+** (you have 3.12). Uses the standard library only —
